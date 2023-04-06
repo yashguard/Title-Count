@@ -5,7 +5,7 @@ function App() {
   let [count, setCount] = useState(0);
   const setValue = () => {
     setCount(++count);
-    document.title = "count" + " " + `${count}`;
+    document.title = "countValue" + " = " + " " + `${count}`;
   };
 
   return (
